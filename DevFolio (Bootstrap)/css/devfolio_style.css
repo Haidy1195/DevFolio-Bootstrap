@@ -1,0 +1,346 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#home
+{
+    background-image: url(../Img/intro-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#home .navbar-brand
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+#home .bg-dark
+{
+    background-color: #000 !important;
+    height: 10%;
+    padding-top: 0px;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, .5);
+}
+#home h1
+{
+    font-size: 4rem;
+    font-weight: 600;
+}
+#home p
+{
+    font-size: 2.5rem;
+    max-width: 370px;
+    overflow: hidden;
+}
+/*#home p::before
+{ 
+    content: "CEO DevFolio|  ";
+    animation-name: movex;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    position: relative;
+    top:0;
+    left:0;
+  }
+  @keyframes movex
+{
+    0%{ left:100%; top:0}
+    100{ left:0; top:0;}
+}*/
+#home .f-span
+{
+    animation-name: move;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    position: relative;
+    top:0;
+    left:0;
+}
+@keyframes move
+{
+    0%{ left:100%; top:0}
+    100%{ left:0; top:0}
+}
+#about
+{
+    background-color: #f1f1f1;
+}
+.about .info span, .about .skill p
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+.about .skill span
+{
+    color: #4e4e4e;
+}
+.about .skill .s-pos
+{
+    float: right;
+}
+.skill .progress
+{
+
+    background-color:#cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+}
+.title
+{
+    position: relative;
+}
+.title::before 
+{
+
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: 5px;
+
+}
+#service
+{
+    background-color: #f1f1f1;
+}
+.service
+{
+    border-radius: 5%;
+}
+#service h3
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.service:hover i
+{
+    background-color:#0078ff;
+    border: 9px solid #cde1f8;
+    border-radius: 50%;
+    color: white;
+}
+.title-2
+{
+    position: relative;
+}
+.title-2::after 
+{
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 40px;
+    top: 50;
+    left:48% ;
+}
+.service i
+{
+    font-size:4rem;
+    padding: 20;
+    border: 9px solid #0078ff;
+    border-radius: 50%;
+}
+.counters
+{
+    background-image: url(../Img/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.layer2
+{
+    background-color: rgba(0,120,255,.7);
+}
+.counters i
+{
+    font-size: 1.8rem;
+    border: 9px solid #cde1f8;
+    border-radius: 50%;
+    padding: 16px;
+}
+#work
+{
+    background-color: #f1f1f1;
+}
+#work h3
+{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.cardy .work-img 
+{
+    overflow: hidden;
+}
+.cardy img
+{
+    transition: transform 1s;
+}
+.cardy:hover img
+{
+    transform: scale(1.3,1.3);
+}
+.cardy .color
+{
+    color: #0078ff;
+}
+.cardy i
+{
+    font-size: 12;
+    padding: 10px;
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+}
+.carousely
+{
+    background-image: url(../Img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.carousely .carousel-indicators li
+{
+    background-color: #cde1f8;
+    width: 15px;
+    height: 5px;
+}
+.carousely .carousel-indicators .active
+{
+    background-color: #000;
+    width: 20px;
+    height: 6px;
+}
+.content img
+{
+    border-radius: 50%;
+}
+.content i
+{
+    background-color: #fff;
+    font-size: 2rem;
+    color: #0078ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+#blog
+{
+    background-color: #f1f1f1;
+}
+#blog h3
+{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.item .colorx
+{
+    font-size:12px;
+    background-color:#0078ff;
+    color: white;
+    padding: 4px 10px;
+    position: relative;
+    bottom: 18px;
+}
+#blog .item-footer
+{
+    background-color: #f7f7f7;
+}
+#blog .item-footer img
+{
+    width: 32px;
+    height: 32px;
+}
+#blog .item-footer span
+{
+    font-size: 14;
+}
+#blog .item-footer i
+{
+    font-size: 13;
+}
+#contact .in
+{
+    width: 100%;
+    padding: .375rem .75rem;
+    color:#495057;
+    background-clip: padding-box;
+    border: 1px solid#ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#contact .in:focus
+{
+    border-color:  #0078ff;
+    box-shadow: 0 0 1px 1px #0078ff;
+}
+#contact textarea
+{
+    resize: vertical;
+}
+#contact .get ul li
+{
+    list-style: none;
+    margin-left: -40px;
+    padding: 3px 0;
+}
+#contact .get ul li i
+{
+    color: #0078ff;
+    font-size: 12;
+    padding-right: 15px;
+}
+#contact .title-c, #contact .title-g
+{
+    position: relative;
+}
+#contact .title-c::after 
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+    left: 15px;
+}
+#contact .title-g::after 
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 90px;
+    top: 50;
+    left: 0;
+}
+.social i
+{
+    font-size: 24px;
+    padding: 10px;
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.social p:hover i
+{
+    background-color:#0078ff;
+    border: 3px solid #cde1f8;
+    border-radius: 50%;
+    color: white;
+}
+#contact .get .social .fb
+{
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+}
+.top
+{
+    width: 40;
+    height: 40;
+}
